@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Socket.IO chat</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box;}
+        body { font: 13px Helvetica, Arial; background: black;}
+        h1{text-align: center; color: white;}
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="/hammer/hammer.js"></script>
+    <script src="/body-scroll-lock.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body style="min-height: 100vh;">
+<div id="clickArea" style="min-height: 100vh;">
+    <h1 id="instruction">
+        <p>Rotate your device sideways</p>
+    </h1>
+    <h1 id="instruction2">
+        <p>Tap anywhere</p>
+        <p>There is a timeout in between taps</p>
+    </h1>
+</div>
+</body>
+</html>
